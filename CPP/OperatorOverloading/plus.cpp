@@ -11,11 +11,16 @@ public:
 	student(string, int, int);
 
 	// Operator Overloading
-	void operator + ();					// '+a'		is equivalent to 'a.+()'
-	student operator + (student& m);	// 'a + b'	is equivalent to 'a.+(b)'
-	void operator += (student& m);		// 'a += b' is equivalent to 'a.+=(b)'
-	void operator ++ ();				// '++a'	is equivalent to 'a.++()'
-	void operator ++ (int);				// 'a++'	is equivalent to 'a.++(0)'
+	// '+a'		is equivalent to 'a.+()'
+	// 'a + b'	is equivalent to 'a.+(b)'
+	// 'a += b' is equivalent to 'a.+=(b)'
+	// '++a'	is equivalent to 'a.++()'
+	// 'a++'	is equivalent to 'a.++(0)'
+	void operator + ();					
+	student operator + (student& m);	
+	void operator += (student& m);		
+	void operator ++ ();				
+	void operator ++ (int);				
 
 	// Get
 	string getName() { return name; };
