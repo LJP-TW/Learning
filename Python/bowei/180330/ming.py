@@ -58,6 +58,8 @@ index = 0
 # The order of teacher selected by student
 layer = 1
 while False in finished:
+    if layer >= len(student[0]):
+        break
     if index >= len(sortedStudent):
         index = 0
         layer += 1
@@ -102,4 +104,8 @@ while False in finished:
             if breakDoubleForFlag == True:
                 break
 
-print(selectTeacher)
+for i in range(0, len(selectTeacher)):
+    if finished[i] == True:
+        print('{}->{}'.format(sortedStudent[i], selectTeacher[i]))
+    else:
+        print('{}->none'.format(sortedStudent[i]))
