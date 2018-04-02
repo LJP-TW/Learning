@@ -107,5 +107,3 @@ while False in finished:
 for i in range(0, len(selectTeacher)):
     if finished[i] == True:
         print('{}->{}'.format(sortedStudent[i], selectTeacher[i]))
-    else:
-        print('{}->none'.format(sortedStudent[i]))
