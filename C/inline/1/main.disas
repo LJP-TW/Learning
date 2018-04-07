@@ -1,0 +1,9 @@
+Dump of assembler code for function main:
+   0x00000000004009bf <+0>:	push   rbp
+   0x00000000004009c0 <+1>:	mov    rbp,rsp
+   0x00000000004009c3 <+4>:	mov    edi,0x4a10a4
+   0x00000000004009c8 <+9>:	call   0x40faa0 <puts>
+   0x00000000004009cd <+14>:	mov    eax,0x0
+   0x00000000004009d2 <+19>:	pop    rbp
+   0x00000000004009d3 <+20>:	ret    
+End of assembler dump.
