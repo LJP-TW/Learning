@@ -1,0 +1,104 @@
+Dump of assembler code for function main:
+   0x0000000000400ac1 <+0>:	push   rbp
+   0x0000000000400ac2 <+1>:	mov    rbp,rsp
+   0x0000000000400ac5 <+4>:	push   rbx
+   0x0000000000400ac6 <+5>:	sub    rsp,0x38
+   0x0000000000400aca <+9>:	mov    rax,QWORD PTR fs:0x28
+   0x0000000000400ad3 <+18>:	mov    QWORD PTR [rbp-0x18],rax
+   0x0000000000400ad7 <+22>:	xor    eax,eax
+   0x0000000000400ad9 <+24>:	call   0x400ab6 <_Z5give8v>
+   0x0000000000400ade <+29>:	mov    DWORD PTR [rbp-0x34],eax
+   0x0000000000400ae1 <+32>:	lea    rax,[rbp-0x30]
+   0x0000000000400ae5 <+36>:	mov    rdi,rax
+   0x0000000000400ae8 <+39>:	call   0x400bd8 <_ZNSt6vectorIiSaIiEEC2Ev>
+   0x0000000000400aed <+44>:	mov    DWORD PTR [rbp-0x38],0x0
+   0x0000000000400af4 <+51>:	cmp    DWORD PTR [rbp-0x38],0x3e6
+   0x0000000000400afb <+58>:	jg     0x400b1e <main+93>
+   0x0000000000400afd <+60>:	call   0x400bcd <_Z12give8_inlinev>
+   0x0000000000400b02 <+65>:	mov    DWORD PTR [rbp-0x3c],eax
+   0x0000000000400b05 <+68>:	lea    rdx,[rbp-0x3c]
+   0x0000000000400b09 <+72>:	lea    rax,[rbp-0x30]
+   0x0000000000400b0d <+76>:	mov    rsi,rdx
+   0x0000000000400b10 <+79>:	mov    rdi,rax
+   0x0000000000400b13 <+82>:	call   0x400c46 <_ZNSt6vectorIiSaIiEE9push_backEOi>
+   0x0000000000400b18 <+87>:	add    DWORD PTR [rbp-0x38],0x1
+   0x0000000000400b1c <+91>:	jmp    0x400af4 <main+51>
+   0x0000000000400b1e <+93>:	mov    ebx,0x0
+   0x0000000000400b23 <+98>:	lea    rax,[rbp-0x30]
+   0x0000000000400b27 <+102>:	mov    rdi,rax
+   0x0000000000400b2a <+105>:	call   0x400bf4 <_ZNSt6vectorIiSaIiEED2Ev>
+   0x0000000000400b2f <+110>:	mov    eax,ebx
+   0x0000000000400b31 <+112>:	mov    rcx,QWORD PTR [rbp-0x18]
+   0x0000000000400b35 <+116>:	xor    rcx,QWORD PTR fs:0x28
+   0x0000000000400b3e <+125>:	je     0x400b61 <main+160>
+   0x0000000000400b40 <+127>:	jmp    0x400b5c <main+155>
+   0x0000000000400b42 <+129>:	mov    rbx,rax
+   0x0000000000400b45 <+132>:	lea    rax,[rbp-0x30]
+   0x0000000000400b49 <+136>:	mov    rdi,rax
+   0x0000000000400b4c <+139>:	call   0x400bf4 <_ZNSt6vectorIiSaIiEED2Ev>
+   0x0000000000400b51 <+144>:	mov    rax,rbx
+   0x0000000000400b54 <+147>:	mov    rdi,rax
+   0x0000000000400b57 <+150>:	call   0x4009a0 <_Unwind_Resume@plt>
+   0x0000000000400b5c <+155>:	call   0x400940 <__stack_chk_fail@plt>
+   0x0000000000400b61 <+160>:	add    rsp,0x38
+   0x0000000000400b65 <+164>:	pop    rbx
+   0x0000000000400b66 <+165>:	pop    rbp
+   0x0000000000400b67 <+166>:	ret    
+End of assembler dump.
+Dump of assembler code for function main:
+   0x0000000000400c61 <+0>:	push   rbp
+   0x0000000000400c62 <+1>:	mov    rbp,rsp
+   0x0000000000400c65 <+4>:	push   rbx
+   0x0000000000400c66 <+5>:	sub    rsp,0x48
+   0x0000000000400c6a <+9>:	mov    rax,QWORD PTR fs:0x28
+   0x0000000000400c73 <+18>:	mov    QWORD PTR [rbp-0x18],rax
+   0x0000000000400c77 <+22>:	xor    eax,eax
+   0x0000000000400c79 <+24>:	call   0x400c56 <_Z6give87v>
+   0x0000000000400c7e <+29>:	mov    DWORD PTR [rbp-0x3c],eax
+   0x0000000000400c81 <+32>:	lea    rax,[rbp-0x30]
+   0x0000000000400c85 <+36>:	mov    rdi,rax
+   0x0000000000400c88 <+39>:	call   0x400da4 <_ZNSt6vectorIiSaIiEEC2Ev>
+   0x0000000000400c8d <+44>:	mov    DWORD PTR [rbp-0x40],0x0
+   0x0000000000400c94 <+51>:	cmp    DWORD PTR [rbp-0x40],0x3e6
+   0x0000000000400c9b <+58>:	jg     0x400cbe <main+93>
+   0x0000000000400c9d <+60>:	call   0x400d99 <_Z13give87_inlinev>
+   0x0000000000400ca2 <+65>:	mov    DWORD PTR [rbp-0x44],eax
+   0x0000000000400ca5 <+68>:	lea    rdx,[rbp-0x44]
+   0x0000000000400ca9 <+72>:	lea    rax,[rbp-0x30]
+   0x0000000000400cad <+76>:	mov    rsi,rdx
+   0x0000000000400cb0 <+79>:	mov    rdi,rax
+   0x0000000000400cb3 <+82>:	call   0x400e12 <_ZNSt6vectorIiSaIiEE9push_backEOi>
+   0x0000000000400cb8 <+87>:	add    DWORD PTR [rbp-0x40],0x1
+   0x0000000000400cbc <+91>:	jmp    0x400c94 <main+51>
+   0x0000000000400cbe <+93>:	call   0x400d99 <_Z13give87_inlinev>
+   0x0000000000400cc3 <+98>:	mov    DWORD PTR [rbp-0x38],eax
+   0x0000000000400cc6 <+101>:	mov    esi,0x401935
+   0x0000000000400ccb <+106>:	mov    edi,0x6030c0
+   0x0000000000400cd0 <+111>:	call   0x400aa0 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+   0x0000000000400cd5 <+116>:	mov    esi,0x400b00
+   0x0000000000400cda <+121>:	mov    rdi,rax
+   0x0000000000400cdd <+124>:	call   0x400ad0 <_ZNSolsEPFRSoS_E@plt>
+   0x0000000000400ce2 <+129>:	mov    eax,0x87
+   0x0000000000400ce7 <+134>:	mov    DWORD PTR [rbp-0x34],eax
+   0x0000000000400cea <+137>:	mov    ebx,0x0
+   0x0000000000400cef <+142>:	lea    rax,[rbp-0x30]
+   0x0000000000400cf3 <+146>:	mov    rdi,rax
+   0x0000000000400cf6 <+149>:	call   0x400dc0 <_ZNSt6vectorIiSaIiEED2Ev>
+   0x0000000000400cfb <+154>:	mov    eax,ebx
+   0x0000000000400cfd <+156>:	mov    rcx,QWORD PTR [rbp-0x18]
+   0x0000000000400d01 <+160>:	xor    rcx,QWORD PTR fs:0x28
+   0x0000000000400d0a <+169>:	je     0x400d2d <main+204>
+   0x0000000000400d0c <+171>:	jmp    0x400d28 <main+199>
+   0x0000000000400d0e <+173>:	mov    rbx,rax
+   0x0000000000400d11 <+176>:	lea    rax,[rbp-0x30]
+   0x0000000000400d15 <+180>:	mov    rdi,rax
+   0x0000000000400d18 <+183>:	call   0x400dc0 <_ZNSt6vectorIiSaIiEED2Ev>
+   0x0000000000400d1d <+188>:	mov    rax,rbx
+   0x0000000000400d20 <+191>:	mov    rdi,rax
+   0x0000000000400d23 <+194>:	call   0x400b40 <_Unwind_Resume@plt>
+   0x0000000000400d28 <+199>:	call   0x400ac0 <__stack_chk_fail@plt>
+   0x0000000000400d2d <+204>:	add    rsp,0x48
+   0x0000000000400d31 <+208>:	pop    rbx
+   0x0000000000400d32 <+209>:	pop    rbp
+   0x0000000000400d33 <+210>:	ret    
+End of assembler dump.

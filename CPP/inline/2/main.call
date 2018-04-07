@@ -1,0 +1,8 @@
+   0x0000000000400ad9 <+24>:	call   0x400ab6 <_Z5give8v>
+   0x0000000000400ae8 <+39>:	call   0x400bd8 <_ZNSt6vectorIiSaIiEEC2Ev>
+   0x0000000000400afd <+60>:	call   0x400bcd <_Z12give8_inlinev>
+   0x0000000000400b13 <+82>:	call   0x400c46 <_ZNSt6vectorIiSaIiEE9push_backEOi>
+   0x0000000000400b2a <+105>:	call   0x400bf4 <_ZNSt6vectorIiSaIiEED2Ev>
+   0x0000000000400b4c <+139>:	call   0x400bf4 <_ZNSt6vectorIiSaIiEED2Ev>
+   0x0000000000400b57 <+150>:	call   0x4009a0 <_Unwind_Resume@plt>
+   0x0000000000400b5c <+155>:	call   0x400940 <__stack_chk_fail@plt>
