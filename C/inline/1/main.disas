@@ -1,9 +1,11 @@
 Dump of assembler code for function main:
-   0x00000000004009bf <+0>:	push   rbp
-   0x00000000004009c0 <+1>:	mov    rbp,rsp
-   0x00000000004009c3 <+4>:	mov    edi,0x4a10a4
-   0x00000000004009c8 <+9>:	call   0x40faa0 <puts>
-   0x00000000004009cd <+14>:	mov    eax,0x0
-   0x00000000004009d2 <+19>:	pop    rbp
-   0x00000000004009d3 <+20>:	ret    
+   0x00000000004009c4 <+0>:	push   rbp
+   0x00000000004009c5 <+1>:	mov    rbp,rsp
+   0x00000000004009c8 <+4>:	mov    DWORD PTR [rip+0x2cc386],0x1        # 0x6ccd58 <x>
+   0x00000000004009d2 <+14>:	mov    eax,DWORD PTR [rip+0x2cc380]        # 0x6ccd58 <x>
+   0x00000000004009d8 <+20>:	sub    eax,0x1
+   0x00000000004009db <+23>:	mov    DWORD PTR [rip+0x2cc377],eax        # 0x6ccd58 <x>
+   0x00000000004009e1 <+29>:	mov    eax,0x0
+   0x00000000004009e6 <+34>:	pop    rbp
+   0x00000000004009e7 <+35>:	ret    
 End of assembler dump.

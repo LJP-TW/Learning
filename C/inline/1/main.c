@@ -1,14 +1,14 @@
-#include <stdio.h>
+int x;
 
 void printHi() __attribute__ ((always_inline));
 
 inline void printHi() {
-	printf("Hi\n");
+	x--;
 }
 
 int main()
 {
+	x = 1;
 	printHi();
-
 	return 0;
 }
