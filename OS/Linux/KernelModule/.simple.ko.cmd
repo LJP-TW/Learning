@@ -1,0 +1,1 @@
+cmd_/srv/project/OS/KernelModule/simple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /srv/project/OS/KernelModule/simple.ko /srv/project/OS/KernelModule/simple.o /srv/project/OS/KernelModule/simple.mod.o
