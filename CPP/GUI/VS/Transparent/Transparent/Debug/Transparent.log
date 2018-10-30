@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+  MyForm.obj : Managed 程式碼存在時不支援 /DEBUG:FASTLINK; 正在以 /DEBUG:FULL 重新啟動連結
+  Transparent.vcxproj -> D:\Git\Learning\CPP\GUI\VS\Transparent\Debug\Transparent.exe
+  Transparent.vcxproj -> D:\Git\Learning\CPP\GUI\VS\Transparent\Debug\Transparent.pdb (Partial PDB)

@@ -26,5 +26,19 @@
     <ClInclude Include="MainForm.h">
       <Filter>原始程式檔</Filter>
     </ClInclude>
+    <ClInclude Include="Father.h">
+      <Filter>原始程式檔</Filter>
+    </ClInclude>
+    <ClInclude Include="A.h">
+      <Filter>原始程式檔</Filter>
+    </ClInclude>
+    <ClInclude Include="B.h">
+      <Filter>原始程式檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

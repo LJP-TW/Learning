@@ -1,0 +1,4 @@
+﻿  Layer2.cpp
+  Layer1.obj : Managed 程式碼存在時不支援 /DEBUG:FASTLINK; 正在以 /DEBUG:FULL 重新啟動連結
+  InheritControls.vcxproj -> D:\Git\Learning\CPP\GUI\VS\InheritControls\Debug\InheritControls.exe
+  InheritControls.vcxproj -> D:\Git\Learning\CPP\GUI\VS\InheritControls\Debug\InheritControls.pdb (Partial PDB)
